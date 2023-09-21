@@ -1,0 +1,50 @@
+
+.about{
+
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 1rem;
+    background-color: rgb(254 205 211);
+    margin-bottom: 30px;
+   
+}
+
+.about .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.about .column .image{
+    flex:1 1 30rem;
+    margin-right: 40px;
+}
+
+.about .column .image img{
+    width:100%;
+    border-image-repeat: space;
+    border-style: dashed;
+    animation: float 3s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+}
+
+.about .column .content{
+    flex:1 1 40rem;
+}
+
+.about .column .content h3{
+    font-size: 3rem;
+    color:#666;
+}
+
+.about .column .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.about .column .content .buttons a:last-child{
+    margin-left: 2rem;
+}
+
